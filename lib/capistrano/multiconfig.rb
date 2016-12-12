@@ -48,7 +48,7 @@ stages.each do |stage|
     end
 
     # Load SCM tasks
-    load "capistrano/#{fetch(:scm)}.rb"
+    #load "capistrano/#{fetch(:scm)}.rb"
 
     # Set locale
     I18n.locale = fetch(:locale, :en)
